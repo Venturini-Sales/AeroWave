@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
@@ -12,23 +12,7 @@ import { AlbumPage } from './pages/Album_Page';
 
 
 function App() {
-
-  useEffect(() => {
-    const lockOrientation = () => {
-      if (screen.orientation.lock) {
-        screen.orientation.lock('portrait'); 
-      }
-    };
-
-    lockOrientation(); 
-    return () => {
-      if (screen.orientation.unlock) {
-        screen.orientation.unlock();
-      }
-    };
-  }, []);
-
-
+  
   return (
     <>
     <Header/>
