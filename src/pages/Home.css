@@ -1,0 +1,211 @@
+
+.banner {
+    height: calc(100vh - 78px);
+    background-color: #333;
+    overflow: hidden;
+}
+
+.banner .sliders {
+    width: 300vw;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.banner .slide {
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+}
+
+.banner .bg1 {
+    background-image: url(../assets/img/Slide1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .bg2 {
+    background-image: url(../assets/img/Slide2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .bg3 {
+    background-image: url(../assets/img/Slide3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .slideArea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: end;
+    justify-content: center;
+    color: white;
+}
+
+.banner h1 {
+    margin-right: 90px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 90px;
+}
+
+.banner h2 {
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-right: 92px;
+}
+
+.banner p {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 95px;
+}
+
+.banner .button {
+    font-family: "VT323", Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background-color: #d3d0c9;
+    color: black;
+    box-shadow: 2px 3px 0px black,
+    inset 3px 3px 2px white,
+    inset -1px -1px 2px rgb(29, 29, 29);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-right: 250px;
+    margin-top: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 45px;
+    padding-right: 45px;
+    letter-spacing: 5px;
+}
+
+.bg1 h1, .bg1 h2, .bg1 p {
+    color: #6cfdb6;
+    font-style: italic;
+}
+
+.bg2 h1, .bg2 h2, .bg2 p {
+    color: white;
+    font-style: italic;
+}
+
+.bg3 h1, .bg3 h2, .bg3 p {
+    color: yellow;
+    font-style: italic;
+}
+
+.bg1 p, .bg2 p, .bg3 p {
+    font-style: normal;
+}
+
+.banner .slidersPointers {
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #bfbfbf;
+    background-color: #a1a1a1;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.banner .active {
+    background-color: #02007c;
+}
+
+
+
+
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    .banner .bg1 {
+        background-color: #ff809d;
+        background-image: none;
+    }
+    
+    .banner .bg2 {
+        background-image: url(../assets/img/2responsive.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .banner .bg3 {
+        background-image: url(../assets/img/3responsive.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner .slideArea {
+        align-items: center;
+    }
+
+    .banner h1, .banner h2, .banner p, .banner .button {
+        margin-right: 0;
+    }
+
+    .banner h1 {
+        font-size: 75px;
+    }
+    
+}
+
+@media (max-width:767px) {
+
+    .banner .bg1 {
+        background-color: #ff809d;
+        background-image: none;
+    }
+    
+    .banner .bg2 {
+        background-image: url(../assets/img/2responsive.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .banner .bg3 {
+        background-image: url(../assets/img/3responsive.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner .slideArea {
+        align-items: center;
+    }
+
+    .banner h1, .banner h2, .banner p, .banner .button {
+        margin-right: 0;
+    }
+
+    .banner h1 {
+        font-size: 180%;
+    }
+
+    .banner h2 {
+        margin-top: 10px;
+        font-size: 150%;
+    }
+
+    .banner p {
+        margin-top: 5px;
+    }
+
+}

@@ -1,0 +1,51 @@
+body {
+    overflow-x: hidden;
+}
+
+* {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: url(./assets/img/Scrollbar-bg.jpg);
+    background-size: 18px;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 2px 2px 3px rgb(39, 39, 39),
+    inset -3px -3px 2px white,
+    inset -1px -1px 2px rgb(29, 29, 29);
+    background: #d3d0c9; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #bdbab4; 
+}
+
+::-webkit-scrollbar-button:start {
+    box-shadow: inset 2px 2px 3px rgb(39, 39, 39),
+    inset -3px -3px 2px white,
+    inset -1px -1px 2px rgb(29, 29, 29);
+    background-color: #d3d0c9;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAxNiAxNiIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj4KPG1ldGFkYXRhPk1hZGUgd2l0aCBQaXhlbHMgdG8gU3ZnIGh0dHBzOi8vY29kZXBlbi5pby9zaHNoYXcvcGVuL1hieHZOajwvbWV0YWRhdGE+CjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTcgNWgxTTYgNmgzTTUgN2g1TTQgOGg3IiAvPgo8L3N2Zz4=") ;    
+    height: 16px; 
+    width: 16px; 
+}
+
+::-webkit-scrollbar-button:end {
+    box-shadow: inset 2px 2px 3px rgb(39, 39, 39),
+    inset -3px -3px 2px white,
+    inset -1px -1px 2px rgb(29, 29, 29);
+    background-color: #d3d0c9;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTAuNSAxNiAxNiIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj4KPG1ldGFkYXRhPk1hZGUgd2l0aCBQaXhlbHMgdG8gU3ZnIGh0dHBzOi8vY29kZXBlbi5pby9zaHNoYXcvcGVuL1hieHZOajwvbWV0YWRhdGE+CjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgZD0iTTQgNWg3TTUgNmg1TTYgN2gzTTcgOGgxIiAvPgo8L3N2Zz4="); /* Cor de fundo do botão de seta para baixo */
+    height: 16px; 
+    width: 16px; 
+}

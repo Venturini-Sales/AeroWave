@@ -1,0 +1,22 @@
+.productCounter {
+    display: flex;
+    align-items: center;
+}
+
+.productCounter button {
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.productCounter button:hover {
+    background-color: #006666;
+}
+
+.productCounter span {
+    margin: 0 20px;
+    font-size: 16px;
+}

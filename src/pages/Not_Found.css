@@ -1,0 +1,46 @@
+
+body .notFound {
+    background-color: #0000aa;
+    color: white;
+}
+
+.notFound {
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.aerowaveMessage {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 23px;
+    color: #0000aa;
+    background-color: #a7a9b0;
+    font-family:"VT323", Arial, Helvetica, sans-serif;
+}
+
+.errorMessage p {
+    margin-bottom: 10px;
+    width: 600px;
+    font-size: 20px;
+    font-family:"VT323", Arial, Helvetica, sans-serif;
+}
+
+.errorMessage p:nth-child(2) {
+    margin-bottom: 40px;
+}
+
+.errorMessage p:nth-child(3) {
+    margin-bottom: 3px;
+}
+
+
+@media (max-width:768px) {
+
+    .errorMessage p {
+        width:  65vw;
+    }
+}
