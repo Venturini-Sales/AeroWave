@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css'
-import Logo from '../assets/img/AeroWave.png'
-import openButton from '../assets/icons/open.png'
-import closeButton from '../assets/icons/closed.png'
+import Logo from '../../assets/img/AeroWave.png'
+import openButton from '../../assets/icons/open.png'
+import closeButton from '../../assets/icons/closed.png'
 
 
 function Header() {

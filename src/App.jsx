@@ -1,13 +1,13 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import { NotFound } from './pages/Not_Found'
-import { Home } from './pages/Home';
-import { AboutUs } from './pages/About_Us'
-import { OurProducts } from './pages/Our_Products';
-import { AlbumPage } from './pages/Album_Page';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import { NotFound } from './pages/notFound/Not_Found'
+import { Home } from './pages/home/Home';
+import { AboutUs } from './pages/aboutUs/About_Us'
+import { OurProducts } from './pages/ourProducts/Our_Products';
+import { AlbumPage } from './pages/albumPage/Album_Page';
 
 
 

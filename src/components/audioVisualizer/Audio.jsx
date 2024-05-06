@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Audio.css";
-import playIcon from "../assets/icons/Play.png";
-import pauseIcon from "../assets/icons/Pause.png";
+import playIcon from "../../assets/icons/Play.png";
+import pauseIcon from "../../assets/icons/Pause.png";
 
 const AudioPlayer = ({ audioSrc }) => {
     const [isPlaying, setIsPlaying] = useState(false);

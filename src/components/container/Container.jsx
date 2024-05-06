@@ -1,5 +1,5 @@
 import React from "react";
-import folder from '../assets/icons/folder.png'
+import folder from '../../assets/icons/folder.png'
 import './Container.css' 
 
 export default function Container ({ path, children }) {

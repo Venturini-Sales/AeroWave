@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import './Album_Page.css'
-import Container from "../components/Container";
-import SliderPreview from "../components/SliderPreview";
-import AudioPlayer from "../components/Audio";
-import shippingImg from "../assets/icons/shipping.png"
-import oosImg from "../assets/icons/OutOfStock.png"
-import ProductCounter from "../components/Counter";
-import BuyButton from "../components/Button";
-import albumDetails from "../data/albuns";
+import Container from "../../components/container/Container";
+import SliderPreview from "../../components/sliderPreview/SliderPreview";
+import AudioPlayer from "../../components/audioVisualizer/Audio";
+import shippingImg from "../../assets/icons/shipping.png"
+import oosImg from "../../assets/icons/OutOfStock.png"
+import ProductCounter from "../../components/counter/Counter";
+import BuyButton from "../../components/button/Button";
+import albumDetails from "../../data/albuns";
 
 
 export const AlbumPage = () => {

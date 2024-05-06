@@ -1,6 +1,6 @@
 import React from "react";
-import x from '../assets/icons/x.png'
-import folder from '../assets/icons/folder.png'
+import x from '../../assets/icons/x.png'
+import folder from '../../assets/icons/folder.png'
 import './Modal.css';
 
 export default function Modal({ isOpen, children, path, onClose }) {

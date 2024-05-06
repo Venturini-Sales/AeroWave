@@ -4,17 +4,17 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from '@emailjs/browser'
 import './Footer.css'
-import  Modal  from '../components/Modal';
-import Logo from '../assets/img/AeroWave.png'
-import aeLogo from '../assets/svg/American-express-logo.svg'
-import mLogo from '../assets/svg/Maestro-logo.svg'
-import ppLogo from '../assets/svg/Paypal-logo.svg'
-import vLogo from '../assets/svg/Visa-logo.svg'
-import bLogo from '../assets/svg/Bitcoin-logo.svg'
-import dcLogo from '../assets/svg/Dinners-club-logo.svg'
-import linkedinLogo from '../assets/svg/Linkedin-icon.svg'
-import githubLogo from '../assets/svg/Github-icon.svg'
-import whatsappLogo from '../assets/svg/Whatsapp-icon.svg'
+import  Modal  from '../modal/Modal';
+import Logo from '../../assets/img/AeroWave.png'
+import aeLogo from '../../assets/svg/American-express-logo.svg'
+import mLogo from '../../assets/svg/Maestro-logo.svg'
+import ppLogo from '../../assets/svg/Paypal-logo.svg'
+import vLogo from '../../assets/svg/Visa-logo.svg'
+import bLogo from '../../assets/svg/Bitcoin-logo.svg'
+import dcLogo from '../../assets/svg/Dinners-club-logo.svg'
+import linkedinLogo from '../../assets/svg/Linkedin-icon.svg'
+import githubLogo from '../../assets/svg/Github-icon.svg'
+import whatsappLogo from '../../assets/svg/Whatsapp-icon.svg'
 
 function Footer() {
 

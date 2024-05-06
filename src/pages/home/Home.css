@@ -18,19 +18,19 @@
 }
 
 .banner .bg1 {
-    background-image: url(../assets/img/Slide1.jpg);
+    background-image: url(../../assets/img/Slide1.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .banner .bg2 {
-    background-image: url(../assets/img/Slide2.jpg);
+    background-image: url(../../assets/img/Slide2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .banner .bg3 {
-    background-image: url(../assets/img/Slide3.jpg);
+    background-image: url(../../assets/img/Slide3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -143,13 +143,13 @@
     }
     
     .banner .bg2 {
-        background-image: url(../assets/img/2responsive.png);
+        background-image: url(../../assets/img/2responsive.png);
         background-size: cover;
         background-position: center;
     }
     
     .banner .bg3 {
-        background-image: url(../assets/img/3responsive.png);
+        background-image: url(../../assets/img/3responsive.png);
         background-size: cover;
         background-position: center;
     }
@@ -176,13 +176,13 @@
     }
     
     .banner .bg2 {
-        background-image: url(../assets/img/2responsive.png);
+        background-image: url(../../assets/img/2responsive.png);
         background-size: cover;
         background-position: center;
     }
     
     .banner .bg3 {
-        background-image: url(../assets/img/3responsive.png);
+        background-image: url(../../assets/img/3responsive.png);
         background-size: cover;
         background-position: center;
     }

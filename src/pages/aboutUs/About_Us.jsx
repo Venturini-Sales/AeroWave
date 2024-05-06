@@ -1,8 +1,8 @@
 import React from "react";
 import './About_Us.css'
-import Container from "../components/Container";
-import faIMG from "../assets/img/Frutiger-aero.png"
-import vIMG from "../assets/img/Vaporwave.png"
+import Container from "../../components/container/Container";
+import faIMG from "../../assets/img/Frutiger-aero.png"
+import vIMG from "../../assets/img/Vaporwave.png"
 
 export const AboutUs = () => {
 

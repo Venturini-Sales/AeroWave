@@ -1,27 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Our_Products.css'
-import '../components/Card'
-import mpAlbumBack from '../assets/img/1.png'
-import mpAlbumFront from '../assets/img/1front.jpg'
-import spAlbumBack from '../assets/img/2.png'
-import spAlbumFront from '../assets/img/2front.jpg'
-import bbAlbumBack from '../assets/img/3.png'
-import bbAlbumFront from '../assets/img/3front.jpg'
-import wbAlbumBack from '../assets/img/4.png'
-import wbAlbumFront from '../assets/img/4front.jpg'
-import w9AlbumBack from '../assets/img/5.png'
-import w9AlbumFront from '../assets/img/5front.jpg'
-import mbAlbumBack from '../assets/img/6.png'
-import mbAlbumFront from '../assets/img/6front.jpg'
-import srpAlbumBack from '../assets/img/7.png'
-import srpAlbumFront from '../assets/img/7front.jpg'
-import oAlbumBack from '../assets/img/8.png'
-import oAlbumFront from '../assets/img/8front.jpg'
-import tfAlbumBack from '../assets/img/9.png'
-import tfAlbumFront from '../assets/img/9front.jpg'
-import Container from "../components/Container";
-import Card from '../components/Card';
+import '../../components/card/Card'
+import mpAlbumBack from '../../assets/img/1.png'
+import mpAlbumFront from '../../assets/img/1front.jpg'
+import spAlbumBack from '../../assets/img/2.png'
+import spAlbumFront from '../../assets/img/2front.jpg'
+import bbAlbumBack from '../../assets/img/3.png'
+import bbAlbumFront from '../../assets/img/3front.jpg'
+import wbAlbumBack from '../../assets/img/4.png'
+import wbAlbumFront from '../../assets/img/4front.jpg'
+import w9AlbumBack from '../../assets/img/5.png'
+import w9AlbumFront from '../../assets/img/5front.jpg'
+import mbAlbumBack from '../../assets/img/6.png'
+import mbAlbumFront from '../../assets/img/6front.jpg'
+import srpAlbumBack from '../../assets/img/7.png'
+import srpAlbumFront from '../../assets/img/7front.jpg'
+import oAlbumBack from '../../assets/img/8.png'
+import oAlbumFront from '../../assets/img/8front.jpg'
+import tfAlbumBack from '../../assets/img/9.png'
+import tfAlbumFront from '../../assets/img/9front.jpg'
+import Container from "../../components/container/Container";
+import Card from '../../components/card/Card';
 
 
 export const OurProducts = () => {
@@ -38,8 +38,8 @@ export const OurProducts = () => {
                     <div className='showingText'>Showing all 9 results</div>
 
                     <div className='showingFunction'>
-                    <label htmlFor="per_page">Displaying:</label>
-                    <select name="per_page" className='perPage'>
+                    <label htmlFor="per_page" style={{ marginRight: '10px'}}>Displaying:</label>
+                    <select id= "per_page" name="per_page">
                         <option value="20">20</option>
                         <option value="40">40</option>
                         <option value="60">60</option>
