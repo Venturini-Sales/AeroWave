@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Our_Products.css'
-import '../../components/card/Card'
 import mpAlbumBack from '../../assets/img/1.png'
 import mpAlbumFront from '../../assets/img/1front.jpg'
 import spAlbumBack from '../../assets/img/2.png'

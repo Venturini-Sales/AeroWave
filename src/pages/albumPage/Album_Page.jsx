@@ -7,7 +7,7 @@ import AudioPlayer from "../../components/audioVisualizer/Audio";
 import shippingImg from "../../assets/icons/shipping.png"
 import oosImg from "../../assets/icons/OutOfStock.png"
 import ProductCounter from "../../components/counter/Counter";
-import BuyButton from "../../components/button/Button";
+import Button from "../../components/button/Button";
 import albumDetails from "../../data/albuns";
 
 
@@ -62,7 +62,7 @@ export const AlbumPage = () => {
                         <div className="productBuying">
                             
                             <ProductCounter/>
-                            <BuyButton/>
+                            <Button allowed='not-allowed' type='buy'/>
                             
                             
                         </div>

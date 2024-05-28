@@ -1,0 +1,140 @@
+.myAccount {
+    background-color: #008080;
+    display: flex;
+    justify-content: center;
+}
+
+.accountArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentArea {
+    display: flex;
+    margin-top: 20px;
+}
+
+.contentLeft {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 200px;
+    background-color: rgb(235,235,235);
+    padding: 25px;
+}
+
+.contentLeft ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.contentLeft ul li:hover {
+    color: rgb(70, 70, 70);
+}
+
+.contentRight {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid rgb(225, 225, 225);
+    width: 600px;
+}
+
+.detailsArea {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.infoArea {
+    display: flex;
+    justify-content: center;
+}
+
+.inputArea {
+    width: 80%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.inputArea input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    padding: 9px 12px;
+    outline: none;
+    transition: all .6s;
+}
+
+.inputArea input:focus{
+    border: 1px solid #008080;
+}
+
+.confirmButton {
+    outline: none;
+    border: none;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    .contentArea {
+        flex-direction: column;
+    }
+
+    .contentLeft {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .contentRight {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+    
+    .contentLeft ul li {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:768px) { 
+    .contentArea {
+        flex-direction: column;
+    }
+
+    .contentLeft {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .inputArea {
+        width: 80%;
+    }
+
+    .inputArea input {
+        width: 90%;
+    }
+
+    .contentRight {
+        width: 80vw;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+    
+    .contentLeft ul li {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    
+}

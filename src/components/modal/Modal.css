@@ -60,6 +60,84 @@
     width: 35px;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.textInput {
+    padding: 5px;
+    box-shadow: inset -1px -1px 0px #cacaca,
+    inset 1px 1px 0px black;
+    border-top: 1px solid #717171;
+    border-left: 1px solid #717171;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    outline: none;
+    font-family: "VT323", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    font-size: 20px;
+}
+
+.messageInput {
+    text-align: start;
+    height: 100px;
+    resize: none;
+}
+
+.insertText {
+    font-family: "VT323", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+} 
+
+.sign {
+    text-align: center;
+}
+
+.modalSwitch {
+    font-family: "VT323", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.buttonSend {
+    padding: 10px;
+    background-color: #d3d0c9;
+    box-shadow: 2px 3px 0px black,
+    inset 3px 3px 2px white,
+    inset -1px -1px 2px rgb(29, 29, 29);
+    font-family: "VT323", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+.logoutArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoutArea p {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.buttonsArea {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+}
+
 @media (max-width:768px) {
     .modalContainer {
         padding-left: 8%;

@@ -1,10 +1,10 @@
-import React, { Children } from 'react';
+import React from 'react';
 import { useState } from 'react';
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from '@emailjs/browser'
 import './Footer.css'
-import  Modal  from '../modal/Modal';
+import Modal  from '../modal/Modal';
 import Logo from '../../assets/img/AeroWave.png'
 import aeLogo from '../../assets/svg/American-express-logo.svg'
 import mLogo from '../../assets/svg/Maestro-logo.svg'
@@ -21,6 +21,7 @@ function Footer() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
+  const [openModal, setOpenModal] = useState(false)
 
 function sendEmail(e){
   e.preventDefault(); 
@@ -38,17 +39,14 @@ function sendEmail(e){
 
   emailjs.send("service_30h19fz", "template_5epny0i", templateParams, "YWSfj3h8senTL6N1j")
   .then((response) => {
-    console.log("EMAIL ENVIADO", response.status, response.text)
+    toast.success("Email enviado", response.status, response.text)
     setName("")
     setEmail("")
     setMessage("")
   }, (err) => {
-    console.log("ERROR:", err)
+    toast.error("Error:", err)
   })
 }
-
-
-const [openModal, setOpenModal] = useState(false)
 
     return (
       <footer>
@@ -147,8 +145,6 @@ const [openModal, setOpenModal] = useState(false)
             </div>
            
         </Modal>
-
-        <ToastContainer/>
 
       </footer>
     )

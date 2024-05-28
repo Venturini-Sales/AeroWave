@@ -1,12 +1,12 @@
 import React from "react";
 import './Button.css'
 
-const BuyButton = ({ onClick }) => {
+const Button = ({ onClick, type, allowed } ) => {
     return (
-        <button className="buyButton" onClick={onClick}>
-            Buy
+        <button style={{cursor: allowed}}className="buyButton" onClick={onClick}>
+            {type}
         </button>
     );
 };
 
-export default BuyButton;
+export default Button;
