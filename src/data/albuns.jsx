@@ -92,7 +92,7 @@ const albumDetails = {
 
     "oscob-praise-the-sun-god": {
         artist: "OSCOB",
-        name: "praise the sun god",
+        name: "Praise The Sun God",
         price: "$62.90",
         frontImage: frontImage8,
         backImage: backImage8, 
