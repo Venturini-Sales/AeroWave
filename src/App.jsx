@@ -31,6 +31,7 @@ function App() {
         <Route path='/OurProducts' element={<OurProducts />} />
         <Route path="/OurProducts/:album" element={<AlbumPage />} />
         <Route path="/MyAccount" element={<PrivateRoute element={MyAccount} />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <ToastContainer />
       <Footer/>
